@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blinkit Clone | Grocery Delivery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            blink<span>it</span>
+        </div>
+
+        <div class="delivery-location">
+            <h3>Delivery in 10 minutes</h3>
+            <p>Enter your delivery location 📍</p>
+        </div>
+
+        <div class="search-box">
+            <span>🔍</span>
+            <input
+                type="text"
+                placeholder="Search for groceries, vegetables..."
+                aria-label="Search products"
+            >
+        </div>
+
+        <button class="login-btn">Login</button>
+
+        <button class="cart-btn">
+            🛒 My Cart
+        </button>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Promotional Banner -->
+        <section class="hero">
+
+            <div class="hero-content">
+                <p class="hero-tag">FRESHNESS AT YOUR DOORSTEP</p>
+
+                <h1>
+                    Groceries delivered<br>
+                    in minutes!
+                </h1>
+
+                <p>
+                    Fresh fruits, vegetables, snacks and more.
+                </p>
+
+                <a href="#products" class="shop-btn">
+                    Shop Now →
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=85"
+                    alt="Fresh fruits and vegetables"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- Category Section -->
+        <section class="categories">
+
+            <div class="section-heading">
+                <h2>Shop by Category</h2>
+                <a href="#products">View All →</a>
+            </div>
+
+            <div class="category-grid">
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🥦</div>
+                    <h3>Vegetables</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🍎</div>
+                    <h3>Fruits</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🥛</div>
+                    <h3>Dairy</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🍞</div>
+                    <h3>Bakery</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🍪</div>
+                    <h3>Snacks</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🥤</div>
+                    <h3>Beverages</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🧴</div>
+                    <h3>Personal Care</h3>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <div class="category-icon">🧹</div>
+                    <h3>Household</h3>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Product Section -->
+        <section class="products" id="products">
+
+            <div class="section-heading">
+                <h2>Popular Products</h2>
+                <a href="#products">Explore All →</a>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-card">
+
+                    <span class="discount">15% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh red apples"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Fresh Red Apples</h3>
+
+                    <p class="product-weight">4 pieces</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹120</span>
+                            <strong>₹99</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article class="product-card">
+
+                    <span class="discount">10% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh bananas"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Fresh Bananas</h3>
+
+                    <p class="product-weight">6 pieces</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹60</span>
+                            <strong>₹54</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article class="product-card">
+
+                    <span class="discount">20% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh milk"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Fresh Milk</h3>
+
+                    <p class="product-weight">500 ml</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹35</span>
+                            <strong>₹28</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article class="product-card">
+
+                    <span class="discount">12% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh bread"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Fresh Bakery Bread</h3>
+
+                    <p class="product-weight">400 g</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹45</span>
+                            <strong>₹40</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 5 -->
+                <article class="product-card">
+
+                    <span class="discount">8% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh eggs"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Farm Fresh Eggs</h3>
+
+                    <p class="product-weight">6 pieces</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹75</span>
+                            <strong>₹69</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 6 -->
+                <article class="product-card">
+
+                    <span class="discount">10% OFF</span>
+
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&w=500&q=80"
+                            alt="Fresh oranges"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <p class="delivery-time">⏱ 10 MINS</p>
+
+                    <h3>Fresh Oranges</h3>
+
+                    <p class="product-weight">500 g</p>
+
+                    <div class="product-bottom">
+                        <div class="price">
+                            <span class="old-price">₹80</span>
+                            <strong>₹72</strong>
+                        </div>
+
+                        <button class="add-btn">ADD</button>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Promotional Strip -->
+        <section class="offer-banner">
+            <div>
+                <h2>Fresh Deals Every Day!</h2>
+                <p>Discover everyday essentials at great prices.</p>
+            </div>
+
+            <span class="offer-icon">🛍️</span>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-logo">blink<span>it</span></div>
+
+        <p>
+            Your daily essentials, delivered with convenience.
+        </p>
+
+        <div class="footer-links">
+            <a href="#products">Products</a>
+            <a href="#products">Categories</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Grocery Store Demo. Built for learning purposes.
+        </p>
+
+    </footer>
+
+</body>
+</html>
